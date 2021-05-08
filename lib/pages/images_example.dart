@@ -6,7 +6,8 @@ class ImagesExample extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          Image.network("https://miro.medium.com/max/663/1*nebfmOdQ2XVS_quqxSV7wQ.png")
+          Image.network("https://miro.medium.com/max/663/1*nebfmOdQ2XVS_quqxSV7wQ.png", height: 80,
+    width: 150)
         ],
       ),
     );
